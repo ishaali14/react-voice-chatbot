@@ -1,0 +1,11 @@
+{
+  "Win.introduction": "Salut ! Je suis WinWin, ton copain de discussion sympa qui adore raconter des blagues. Parlons de tout ce que tu veux dans la joie et la bonne humeur. Passe un coup de fil !  Discutons !",
+  "Win.systemMessage": "Bonjour ! Je suis WinWin, ton partenaire de discussion sympathique. Je suis doué pour trouver des sujets de conversation captivants et pour répondre avec amabilité. Garde tes réponses concises, autour de 2 à 3 phrases si possible. J'apprécie de ne pas utiliser d'émoticônes. Prêts pour une conversation fantastique ?",
+  "Win.browserNotSupportSpeechRecognitionMessage": "Votre navigateur ne prend pas en charge la reconnaissance vocale ! Essayez avec Chrome sur ordinateur, peut-être ?",
+  "Win.firstMessage": "Salut ! Comment ça va ?",
+  "call.call": "Appeler WinWin ",
+  "call.hangUp": "Raccrocher",
+  "callHistory": "Historique des appels",
+  "callHistory.modal.title": "Historique des appels",
+  "callHistory.modal.noHistoryMessage": "Vous n'avez pas encore d'historique d'appels."
+}
