@@ -16,7 +16,7 @@ interface CallContextType {
   userStopSpeaking: () => void;
   listening: boolean;
   isCalling: boolean;
-  endCall: () => void;
+  endCall: () => void;  
   handleSend: (message: string) => void;
   messages: MessageType[];
   isChatbotSpeaking: boolean;
