@@ -5,13 +5,10 @@ import { useLanguage } from './LanguageManager';
 import { getChatGptAnswer } from './callUtil';
 import { CallHistoryType } from './CallHistory';
 
-
 export interface MessageType {
   message: string;
   sender: string;
 }
-
-
 interface CallContextType {
   userCall: () => void;
   userSpeak: () => void;
@@ -28,7 +25,6 @@ interface CallContextType {
   setUseHalfDuplexMode: (enabled: boolean)=> void;
 }
 
-
 const CallContext = createContext<CallContextType | undefined>(undefined);
 
 
@@ -43,7 +39,7 @@ const CallManager: React.FC<CallManagerProps> = ({ children }) => {
   const speechUtteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
   const pauseTimerRef = useRef<NodeJS.Timeout | null>(null);
   const lastTranscriptRef = useRef<string>('');
-  const [pauseThreshold, setPauseThreshold] = useState<number>(2); // Default 2 second
+  const [pauseThreshold, setPauseThreshold] = useState<number>(2); // Default 2 second 
   const [useHalfDuplexMode, setUseHalfDuplexMode]=useState(false);
 
 
@@ -84,9 +80,6 @@ const CallManager: React.FC<CallManagerProps> = ({ children }) => {
  
   // Add a reference for the current speech content to help with fingerprinting
   const currentSpeechContentRef = useRef<string>('');
-
-
-
   const commands = [
     {
       command: ['*'],
